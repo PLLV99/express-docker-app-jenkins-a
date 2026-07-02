@@ -12,8 +12,8 @@ pipeline {
     // กำหนด environment variables
     environment {
         DOCKER_HUB_CREDENTIALS_ID = 'dockerhub-cred'
-        DOCKER_REPO               = "sakamotolv99/express-docker-app-jenkins"
-        APP_NAME                  = "express-docker-app-jenkins"
+        DOCKER_REPO               = "sakamotolv99/express-docker-app-jenkins-a"
+        APP_NAME                  = "express-docker-app-jenkins-a"
     }
 
     // กำหนด stages ของ Pipeline
